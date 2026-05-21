@@ -1,0 +1,19 @@
+# 依存ライブラリ
+node_modules/
+
+# ビルド成果物とキャッシュ
+dist/
+.astro/
+
+# 機密情報や環境変数
+.env
+.env.*
+.secret
+.secret.*
+*.pem
+*.key
+
+# エディタのゴミやログ
+.DS_Store
+*.log
+
